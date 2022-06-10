@@ -9,11 +9,15 @@
     "build": "webpack --config ./config/webpack.config.prod.js",
     "start": "webpack serve --config ./config/webpack.config.dev.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@liamegan1/fxhash-helpers": "^0.0.12",
+    "p5": "^1.4.1"
+  },
   "devDependencies": {
     "adm-zip": "^0.5.9",
     "copy-webpack-plugin": "^9.0.1",
     "css-loader": "^6.4.0",
+    "eslint": "^8.17.0",
     "html-webpack-plugin": "^5.4.0",
     "style-loader": "^3.3.0",
     "webpack": "^5.59.0",
