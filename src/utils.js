@@ -1,4 +1,4 @@
-export function createCols(_url) {
+export const createCols = (_url) => {
   const slashIndex = _url.lastIndexOf("/");
   const pallateStr = _url.slice(slashIndex + 1);
   const arr = pallateStr.split("-");
@@ -6,4 +6,4 @@ export function createCols(_url) {
     arr[i] = "#" + arr[i];
   }
   return arr;
-}
+};
